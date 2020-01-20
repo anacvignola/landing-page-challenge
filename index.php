@@ -4,7 +4,25 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta
+      name="description"
+      content="Programa Nacional de Implantes dentários | OPNID - Portugal"
+    />
+    <meta
+      name="keywords"
+      content="Clínica, implantes, odontologia, dentes, dentários, sorriso, a melhor clínica"
+    />
+    <meta name="robots" content="index, follow" />
+    <meta name="author" content="OPNID - Portugal" />
+    <link rel="icon" href="./assets/images/favicon/favicon.ico" />
     <title>OPNID - Portugal</title>
+
+    <!-- JS -->
+    <script
+      src="https://kit.fontawesome.com/e65d5d5102.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- JS -->
 
     <!-- CSS -->
     <link href="./assets/css/styles.css" rel="stylesheet" />
@@ -13,83 +31,87 @@
 
   <body>
     <header>
-      <img src="./assets/img/logo.svg" alt="OPNID - Portugal" />
-      <aside>
-        <a href="#"
-          ><img src="./assets/img/facebook-box-fill.svg" alt="facebook"
-        /></a>
-        <a href="#"
-          ><img src="./assets/img/instagram-line.svg" alt="instagram"
-        /></a>
-        <a href="#"><img src="./assets/img/twitter-fill.svg" alt="twitter"/></a>
-        <a href="#"
-          ><img src="./assets/img/pinterest-fill.svg" alt="pinterest"
-        /></a>
+      <img
+        class="logo-mobile"
+        src="./assets/images/favicon/ms-icon-70x70.png"
+        alt="Programa Nacional de Implantes dentários | OPNID - Portugal"
+      />
+      <img
+        class="logo-desktop"
+        src="./assets/images/logo.svg"
+        alt="Programa Nacional de Implantes dentários | OPNID - Portugal"
+      />
+      <aside class="social">
+        <a href="#"><i class="fab fa-facebook-square"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-pinterest"></i></a>
       </aside>
     </header>
 
     <div class="wrapper">
       <section>
         <h1>
-          Entenda como escolher
-          <br />a melhor clínica de <br />implantes dentários:
+          Entenda como escolher a melhor clínica de implantes dentários:
         </h1>
         <h2>
-          Saiba o que deve considerar na hora de
-          <br />a clínica que vai transformar a <br />sua vida e o seu sorriso.
+          Saiba o que deve considerar na hora de a clínica que vai transformar a
+          sua vida e o seu sorriso.
         </h2>
         <ul>
           <li>Experts em Implantologia</li>
           <li>Recomendada pelos portugueses</li>
           <li>Acompanhamento profissional</li>
         </ul>
-        <img src="./assets/img/icon-2.png" alt="2" />
+        <img src="./assets/images/icon-2.png" alt="2" />
       </section>
 
-      <form class="form" id="formebook">
-        <span
-          >Preencha seus dados e descarregue gratuitamente o nosso ebook</span
-        >
-        <input name="name" id="name" placeholder="Nome*" required />
-        <input
-          name="email"
-          id="email"
-          type="email"
-          placeholder="Email*"
-          required
-        />
-        <select name="clinic" id="clinic" required>
-          <option value="" disabled selected hidden
-            >Clínica mais próxima de si*</option
+      <section class="form">
+        <form class="form" id="formebook">
+          <span
+            >Preencha seus dados e descarregue gratuitamente o nosso ebook</span
           >
-          <option value="Lisboa">Lisboa</option>
-          <option value="Porto">Porto</option>
-        </select>
-        <div id="phone">
-          <select name="ddd" id="ddd">
-            <option value="PT">(+351)</option>
-            <option value="IE">(+353)</option>
-          </select>
+          <input name="name" id="name" placeholder="Nome*" required />
           <input
-            name="mobile"
-            id="mobile"
-            type="tel"
-            placeholder="Telemóvel*"
+            name="email"
+            id="email"
+            type="email"
+            placeholder="Email*"
             required
           />
-        </div>
-        <div id="termos">
-          <input name="terms" id="terms" type="checkbox" required />
-          <p>Li e aceito os termos e condições*</p>
-        </div>
-        <button type="submit">DESCARREGUE O NOSSO EBOOK</button>
-      </form>
+          <select name="clinic" id="clinic" required>
+            <option value="" disabled selected hidden
+              >Clínica mais próxima de si*</option
+            >
+            <option value="Lisboa">Lisboa</option>
+            <option value="Porto">Porto</option>
+          </select>
+          <div id="phone">
+            <select name="ddd" id="ddd">
+              <option value="PT">(+351)</option>
+              <option value="IE">(+353)</option>
+            </select>
+            <input
+              name="mobile"
+              id="mobile"
+              type="tel"
+              placeholder="Telemóvel*"
+              required
+            />
+          </div>
+          <div id="termos">
+            <input name="terms" id="terms" type="checkbox" required />
+            <p>Li e aceito os termos e condições*</p>
+          </div>
+          <button type="submit">DESCARREGUE O NOSSO EBOOK</button>
+        </form>
+      </section>
     </div>
 
     <footer>
-      <img src="./assets/img/logo-white.svg" alt="SWISS Dental Services" />
-      <div id="adress">
-        <div id="menu">
+      <img src="./assets/images/logo-white.svg" alt="SWISS Dental Services" />
+      <div class="adress">
+        <div class="menu">
           <a href="#">Institucional</a>
           <a href="#">Clínicas</a>
           <a href="#">Tratamentos</a>
@@ -106,17 +128,11 @@
           Licença de funcionamento nº 13744/2017.
         </p>
       </div>
-      <aside>
-        <a href="#"
-          ><img src="./assets/img/facebook-box-fill.svg" alt="facebook"
-        /></a>
-        <a href="#"
-          ><img src="./assets/img/instagram-line.svg" alt="instagram"
-        /></a>
-        <a href="#"><img src="./assets/img/twitter-fill.svg" alt="twitter"/></a>
-        <a href="#"
-          ><img src="./assets/img/pinterest-fill.svg" alt="pinterest"
-        /></a>
+      <aside class="social-footer">
+        <a href="#"><i class="fab fa-facebook-square"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-pinterest"></i></a>
       </aside>
     </footer>
 
